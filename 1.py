@@ -1,6 +1,10 @@
-import math 
+def square(num):
+    return num**2
 
-x=12
-y=12
+mylist = list(map(int, input().split()))
+myiter = iter(mylist)
 
-print(x+y+8)
+print(square(next(myiter)))  
+print(square(next(myiter)))
+print(square(next(myiter)))
+
